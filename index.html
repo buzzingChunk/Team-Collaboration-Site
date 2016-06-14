@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>OFM Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+      
+    <!-- Side Menu CSS -->
+    <link rel="stylesheet" href="css/BootSideMenu.css">
+      
+    <!-- HandsOnTable CSS -->
+    <link rel="stylesheet" media="screen" href="css/handsontable.full.css">
+      
+    <!-- JavaScript and Jquery
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/BootSideMenu.js"></script>
+    <script src="js/handsontable.full.js"></script>
+      
+  </head>
+ 
+  <body>
+
+    <div class="container">
+        
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">OCS IT-Finance</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">FDW</a></li>
+            <li><a href="#">PCTT</a></li>
+            <li><a href="#">MDM</a></li>
+            <li><a href="workflows.html">Workflows</a></li>
+            <li><a href="#">MCP</a></li>
+            <li><a href="#">MCS</a></li>
+            <li><a href="#">MGMT</a></li>
+          </ul>
+        </nav>
+      </div>
+        
+        
+        <!-- BOOTSTRAP SIDE MENU. -->
+      <div id="demo">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Item 1</a>
+            <a href="#" class="list-group-item">Item 2</a>
+            <a href="#" class="list-group-item">Item 3</a>
+            <a href="#" class="list-group-item">Item 4</a>
+            <a href="#" class="list-group-item">Item 5</a>
+          </div>
+      </div>
+        
+     <script type="text/javascript">$('#demo').BootSideMenu();</script> 
+        
+        <!-- END BOOTSTRAP SIDE MENU. -->
+
+      <!-- Example row of columns -->
+<div id="body-section">
+      <div class="row row-centered">
+        <div class="col-lg-4">
+          <div id="rssFeed"><!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://www.wired.com/category/business/feed/",rssmikle_frame_width: "75%",rssmikle_frame_height: "450",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "off",autoscroll: "on",scrolldirection: "up",scrollstep: "10",mcspeed: "20",sort: "New",rssmikle_title: "off",rssmikle_title_sentence: "",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#6B8EFF",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:400px;"><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code --></div>
+        </div>
+        <div class="col-lg-4">
+            
+            <!-- ClOCK -->
+            <link rel="stylesheet" type="text/css" href="css/clock.css"/>
+            <div id="liveclock" class="outer_face img-responsive center-block">
+                <div class="marker oneseven"></div>
+                <div class="marker twoeight"></div>
+                <div class="marker fourten"></div>
+                <div class="marker fiveeleven"></div>
+
+                <div class="inner_face">
+                    <div class="hand hour"></div>
+                    <div class="hand minute"></div>
+                    <div class="hand second"></div>
+                </div>
+            </div>
+            <script src="js/ofmClock.js" type="text/javascript"></script> 
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            <!-- Leader Selector -->        
+            <script src="js/leaderSelect.js"type="text/javascript"></script>
+            <form>
+              <p id="leader">No leader selected</p>
+                <button type="button" class="btn btn-default" onclick="newLeader();">New Leader</button>
+            </form>
+
+       </div>
+          
+        <div class="col-lg-4">
+            <!-- TradingView Widget BEGIN -->
+            <div id="tv-miniwidget-82390"></div>
+                <script type="text/javascript" src="https://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+                <script type="text/javascript" src="js/ofmFinancials.js"></script>
+        </div>
+      </div>
+      
+      <div class="row row-centered">
+          <div class="col-lg-4">
+              <!-- CIO PDF -->
+              <object><embed src="media/rssFeed.pdf" type="application/pdf" class="video-col"></embed></object>
+          </div>
+          <div class="col-lg-4">
+              <!-- MDM Video -->
+              <iframe type="text/html" src="media/video.mp4" class="video-col"></iframe>
+          </div>
+          <div class="col-lg-4">
+                              <!-- IBM Watson Video -->
+              <iframe type="text/html" src="media/watsonVideo.mp4" class="video-col"></iframe>
+          </div>
+          
+      </div>
+</div>
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>

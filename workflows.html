@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Workflows</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+      
+    <!-- Side Menu CSS -->
+    <link rel="stylesheet" href="css/BootSideMenu.css">
+      
+    <!-- HandsOnTable CSS -->
+    <link rel="stylesheet" media="screen" href="css/handsontable.full.css"> 
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+      
+ 
+      
+    <!-- JavaScript and Jquery
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/BootSideMenu.js"></script>
+    <script src="js/handsontable.full.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+      
+  </head>
+ 
+  <body>
+
+    <div class="container">
+        
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted top-line">OCS IT-Finance</h3>
+          <button type="button" id="save_button" class="btn btn-secondary btn-sm top-line">Save Changes</button>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">FDW</a></li>
+            <li><a href="#">PCTT</a></li>
+            <li><a href="#">MDM</a></li>
+            <li><a href="workflows.html">Workflows</a></li>
+            <li><a href="#">MCP</a></li>
+            <li><a href="#">MCS</a></li>
+            <li><a href="#">MGMT</a></li>
+          </ul>
+        </nav>
+      </div>
+        
+      <div id="demo">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Item 1</a>
+            <a href="#" class="list-group-item">Item 2</a>
+            <a href="#" class="list-group-item">Item 3</a>
+            <a href="#" class="list-group-item">Item 4</a>
+            <a href="#" class="list-group-item">Item 5</a>
+          </div>
+      </div>
+        
+     <script type="text/javascript">$('#demo').BootSideMenu();</script> 
+
+      <!-- Example row of columns -->
+<div id="body-section">
+      <div class="row">
+        <div class="col-lg-4">
+            <h3>Benjamin</h3>
+                <img src="media/BenE.JPG">
+    <div class="row">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                    <input type="radio" id="q156" name="radio1" value="red" /> 1
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q157" name="radio1" value="green" /> 2
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q158" name="radio1" value="blue" /> 3
+                </label> 
+            </div>
+                <script src="js/radioSelect.js"></script>
+            <div class="circle-class" id="circle1"></div>       
+    </div>
+            <div class="row">
+                  <div class="container col-lg-6">
+    <div class="row">
+        <div>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+            </div>
+            
+            <div id="first-table" class="edit-tables">
+                <script src="js/firstTable.js"></script>
+            </div>      
+        </div>
+          
+        <div class="col-lg-4">
+            <h3>Bardia</h3>
+                <img src="media/bardia.JPG">
+                <div class="row">
+              <div id="circle2"></div>
+              <div class="col-sm-9">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                    <input type="radio" id="q156" name="radio2" value="red" /> 1
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q157" name="radio2" value="green" /> 2
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q158" name="radio2" value="blue" /> 3
+                </label> 
+            </div>
+            <script src="js/radioSelect.js"></script>
+        </div>
+    </div>
+            <div id="second-table" class="edit-tables">
+                <script src="js/secondTable.js"></script>
+            </div>
+       </div>
+          
+        <div class="col-lg-4">
+            <h3>Christina</h3>
+                <img src="media/Christina.JPG">
+                <div class="row">
+              <div id="circle3"></div>
+              <div class="col-sm-9">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                    <input type="radio" id="q156" name="radio3" value="red" /> 1
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q157" name="radio3" value="green" /> 2
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q158" name="radio3" value="blue" /> 3
+                </label> 
+            </div>
+            <script src="js/radioSelect.js"></script>
+        </div>
+    </div>
+            <div id="third-table" class="edit-tables">
+                <script src="js/thirdTable.js"></script>
+            </div>
+        </div>
+      </div>
+      
+</div>
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
